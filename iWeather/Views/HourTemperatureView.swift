@@ -14,19 +14,23 @@ struct HourTemperatureView: View {
             Text(hourlyWeather.time)
                 .font(.title2)
                 .fontWeight(.semibold)
-            Image(systemName: "cloud.fill")
+                .modifier(CustomTextColor())
+            Image(systemName: hourlyWeather.weatherImageName)
                 .font(.title)
                 .padding(1)
+                .frame(height: 50)
+                .modifier(ColoredWeatherIcon(condition: hourlyWeather.condition))
             Text("\(hourlyWeather.temperature)º")
                 .font(.title)
                 .fontWeight(.medium)
                 .offset(x: 2)
+                .modifier(CustomTextColor())
         }.padding(1)
     }
 }
 
 struct HourTemperatureView_Previews: PreviewProvider {
     static var previews: some View {
-        HourTemperatureView(hourlyWeather: HourlyWeather.init(time: "Now", temperature: 5))
+        HourTemperatureView(hourlyWeather: HourlyWeather.example)
     }
 }

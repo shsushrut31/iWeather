@@ -15,15 +15,19 @@ struct CurrentTemperatureView: View {
             Text(currentWeather.location)
                 .font(.largeTitle)
                 .fontWeight(.medium)
+                .modifier(CustomTextColor())
             Text("\(currentWeather.temperature)º")
                 .font(Font.init(CTFont(CTFontUIFontType.application, size: 100)))
                 .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 0))
+                .modifier(CustomTextColor())
             Text("\(currentWeather.condition.rawValue)")
                 .font(.title)
                 .fontWeight(.semibold)
+                .modifier(CustomTextColor())
             Text("H:\(currentWeather.highTemp)º L:\(currentWeather.lowTemp)º")
                 .font(.title)
                 .fontWeight(.semibold)
+                .modifier(CustomTextColor())
         }
     }
 }

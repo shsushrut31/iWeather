@@ -17,6 +17,8 @@
 		A64FF7B52911AAE300A8C10F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FF7B42911AAE300A8C10F /* CurrentWeather.swift */; };
 		A64FF7B72911ADE100A8C10F /* TenDayForecastRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FF7B62911ADE100A8C10F /* TenDayForecastRowView.swift */; };
 		A64FF7B92911AEBE00A8C10F /* DayWeatherSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FF7B82911AEBD00A8C10F /* DayWeatherSummary.swift */; };
+		A64FF7BB2911D08700A8C10F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FF7BA2911D08700A8C10F /* ContentView.swift */; };
+		A64FF7BD2911D22A00A8C10F /* TenDayWeatherListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64FF7BC2911D22A00A8C10F /* TenDayWeatherListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A64FF7B42911AAE300A8C10F /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		A64FF7B62911ADE100A8C10F /* TenDayForecastRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenDayForecastRowView.swift; sourceTree = "<group>"; };
 		A64FF7B82911AEBD00A8C10F /* DayWeatherSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherSummary.swift; sourceTree = "<group>"; };
+		A64FF7BA2911D08700A8C10F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A64FF7BC2911D22A00A8C10F /* TenDayWeatherListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenDayWeatherListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				A64FF7AC291194C100A8C10F /* CurrentTemperatureView.swift */,
 				A64FF7AE29119F6C00A8C10F /* HourTemperatureView.swift */,
 				A64FF7B62911ADE100A8C10F /* TenDayForecastRowView.swift */,
+				A64FF7BA2911D08700A8C10F /* ContentView.swift */,
+				A64FF7BC2911D22A00A8C10F /* TenDayWeatherListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +182,8 @@
 				A64FF7AD291194C100A8C10F /* CurrentTemperatureView.swift in Sources */,
 				A64FF7B72911ADE100A8C10F /* TenDayForecastRowView.swift in Sources */,
 				A64FF7B32911A6C300A8C10F /* HourlyWeather.swift in Sources */,
+				A64FF7BB2911D08700A8C10F /* ContentView.swift in Sources */,
+				A64FF7BD2911D22A00A8C10F /* TenDayWeatherListView.swift in Sources */,
 				A64FF7B52911AAE300A8C10F /* CurrentWeather.swift in Sources */,
 				A64FF7B92911AEBE00A8C10F /* DayWeatherSummary.swift in Sources */,
 				A64FF7AF29119F6C00A8C10F /* HourTemperatureView.swift in Sources */,

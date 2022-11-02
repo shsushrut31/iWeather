@@ -32,6 +32,6 @@ struct DayWeatherSummary {
         }
     }
     
-    static let example = DayWeatherSummary(condition: SkyCondition.Snowy, highTemp: 2, lowTemp: -4, date: Date())
+    static let example = DayWeatherSummary(condition: SkyCondition.Clear, highTemp: 2, lowTemp: -4, date: Date())
     
 }

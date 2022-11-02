@@ -32,6 +32,7 @@ struct TenDayForecastRowView: View {
                 Image(systemName: dayWeatherSummary.weatherImageName)
                     .font(.largeTitle)
                     .fontWeight(.bold)
+                    .modifier(ColoredWeatherIcon(condition: dayWeatherSummary.condition))
             }
             
             VStack(alignment: .trailing) {
@@ -42,6 +43,7 @@ struct TenDayForecastRowView: View {
                     .font(.headline)
                     .fontWeight(.semibold)
             }
+            .frame(width: 60, alignment: .trailing)
         }
     }
 }
